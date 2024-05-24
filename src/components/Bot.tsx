@@ -1071,5 +1071,5 @@ type BottomSpacerProps = {
   ref: HTMLDivElement | undefined;
 };
 const BottomSpacer = (props: BottomSpacerProps) => {
-  return <div ref={props.ref} class="w-full h-32" />;
+  return <div ref={props.ref} class="w-full h-8" />;
 };
